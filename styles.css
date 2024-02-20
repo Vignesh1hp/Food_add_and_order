@@ -11,6 +11,8 @@ body{
     margin:0 auto;
     height: 100%;
     /* flex-wrap: wrap; */
+    background: linear-gradient(to right, #D4145A, #FBB03B);
+    color:white;
 }
 
 h1{
@@ -28,7 +30,6 @@ h1{
     display: flex;
     width:300px;
     justify-content: space-between;
-    background-color: wheat;
     font-size: 25px;
     padding:10px;
 }
@@ -49,4 +50,12 @@ h1{
 .ordered_list{
     font-size: 25px;
 }
-
+.order_btn:hover{
+    color: rgb(2, 12, 2);
+    background-color: rgb(72, 114, 72);
+    box-shadow: none;
+}
+/* button:hover{
+    color: crimson;
+}
+ */
