@@ -32,30 +32,24 @@ h1{
     justify-content: space-between;
     font-size: 25px;
     padding:10px;
+    border: 1px solid black;
 }
 
-/* .added_area{
-    display: flex;
-    flex-direction: column;
-    
-} */
+.added_area{
+    width:500px;
+}
 
 .added_foods{
     display: flex;
     justify-content: center;
     padding: 10px;
     font-size: 25px;
+    width:300px;
+    border:1px solid black;
 }
 
-.ordered_list{
-    font-size: 25px;
-}
 .order_btn:hover{
     color: rgb(2, 12, 2);
     background-color: rgb(72, 114, 72);
     box-shadow: none;
 }
-/* button:hover{
-    color: crimson;
-}
- */
